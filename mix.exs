@@ -39,9 +39,9 @@ defmodule Plotex.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:phoenix_html, "~> 2.13", optional: true},
+      {:phoenix_html, ">=  2.13.0", optional: true},
       {:calendar, "~> 1.0"},
-      {:phoenix_live_view, "~> 0.4", optional: true}
+      {:phoenix_live_view, ">=  0.4.0", optional: true}
     ]
   end
 end
